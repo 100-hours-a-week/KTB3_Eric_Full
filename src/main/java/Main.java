@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 enum Action{
-    ATTACK, DODGE, DODGE_FAILED;
+    ATTACK, DODGE, DODGE_FAILED
 }
 
 class Unit {
@@ -19,10 +19,6 @@ class Unit {
 
     public int getDamage() {
         return damage;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public int getHp() {
